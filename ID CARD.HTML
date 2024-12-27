@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID CARD</title>
+    <link href='https://fonts.googleapis.com/css?family=Libre Barcode 39' rel='stylesheet'>
+    <style>
+        body{
+            height: 95vh;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            position: relative;
+            height: 460px;
+            width: 280px;
+            background-size: cover;
+            align-content: auto;
+            box-shadow: 10px 10px 20px;
+            border-radius: 30px;
+            overflow:hidden;
+            z-index: 1;
+        }
+        #logo{
+            position: relative;
+            height: 60px;
+            width: 170px;
+            margin-left: 0px;
+        }
+        #student{
+            border: 2px solid
+        }
+        .content{
+            margin-left: 50px;
+            font-family: 'Tahoma',sans-serif;
+            font-size: 17px;
+            background: url('ID CARD BACKGROUND.jpg');
+            background-size: 210px;
+            background-repeat: no-repeat;
+            background-position: 10px;
+            background-position-y: 250px;
+            background-blend-mode: luminosity;
+            
+        }
+        .content form{
+            text-align: center;
+        }
+        p1{
+            font-weight: bolder;
+            font-size: small;
+        }
+        p2{
+            font-size: 13px;
+        }
+        p3{
+            font-weight: bold;
+        }
+        p4{
+            font-size: small;
+        }
+        .container::before{
+            content:"ENGINEERING";
+            position:absolute;
+            color: white;
+            font-size: 40PX;
+            transform: rotate(90deg);
+            width: 200%;
+            height: 100%;
+            background: rgb(11, 57, 205);
+            z-index: 1;
+            margin-left: -465px;
+            margin-top: 0px;
+            text-align: center;
+        }
+        
+p6{
+    font-family: 'Libre Barcode 39';font-size: 22px;
+    margin-left: 70px;
+}
+p7
+{
+    font-size: 12px;
+    margin-left: 14px;
+    margin-top: -160px;
+    font-weight: bold;
+}
+#signature{
+margin-left: 8px;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <form>
+            <img id="logo" src="IDENTYCARDZEALLOGO.png"><br>
+            <p1>ZEAL COLLEGE OF ENGINEERING AND RESEARCH,PUNE</p1><br>
+            <p2>S. No. 39, Dhayari-Narhe Road,Narhe,Pune-411041<br> Ph:020-67206000</p2><br>
+            <img id="student" src="elonmusk.jpg" height="100px"><br>
+            <p3>Elon Reeve Musk</p3>
+            </form><br>
+            <p4><b>ZPRN:</b>124BT11186<br>
+                <b>Dept:</b>BTech Information Technology<br>
+                <b>Admission Date:</b>08-09-2024</p4><br>
+                <p6>Mayuresh</p6>
+                <br>
+                <img id="signature" src="signature.jpg" height="25px" width="210px">
+                <p7>Librarian &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Principle</p7>
+        
+        </div>
+        <div>
+           
+        </div>
+        </div>
+    
+</body>
+</html>
